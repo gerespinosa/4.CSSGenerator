@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Generator | 100DaysOfJS</title>
+    <script src="/main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">CSS Shape Generator</h1>
+
+    <div class="generator" id="generator">
+        <h3>There is your code</h3>
+        <p class="generatorText" id="generatorText"></p>
+        <button class="generatorBtn" id="generatorBtn">Get the code!</button>
+    </div>
+
+    <div class="shape" id="shape">
+
+    </div>
+
+    <div class="setter" id="setter">
+
+        <p class="texto">Width</p>
+        <input type="text" id="widthValue" value="0px">
+        <input type="range" name="" id="width" max="1000">
+        <p class="texto">Height</p>
+        <input type="text" id="heightValue" value="0px">
+        <input type="range" name="" id="height" max="1000">
+        <p class="texto">Corner</p>
+        <input type="text" id="cornerValue" value="0px">
+        <input type="range" name="" id="corner" max="100">
+        <p class="texto">Border Size</p>
+        <input type="text" name="" id="borderSizeValue" value="0px">
+        <input type="range" name="" id="borderSize" max="10">
+        <p class="texto">Border Style</p>
+        <select id="borderStyle">
+            <option value="solid">Solid</option>
+            <option value="dashed">Dashed</option>
+            <option value="none">None</option>
+            <option value="double">Double</option>
+            <option value="groove">Groove</option>
+            <option value="ridge">Ridge</option>
+            <option value="inset">Inset</option>
+            <option value="outset">Outset</option>
+        </select><br>
+        <p class="texto">Color</p>
+        <input type="color" id="color">
+    </div>
+
+    <p class="footer">D&DX:<b>Ger Espinosa 2023</b></p>
+</body>
+
+</html>
